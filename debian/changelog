@@ -1,3 +1,9 @@
+ignoreconfig (0.5) utopic; urgency=medium
+
+  * An even better version that just removes single entries from conffiles.
+
+ -- Florian Sievers <florian.sievers@gmail.com>  Fri, 13 Mar 2015 19:47:28 +0100
+
 ignoreconfig (0.4) utopic; urgency=medium
 
   * Now the config should be restored.

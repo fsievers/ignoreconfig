@@ -27,7 +27,7 @@ include /usr/share/dpkg/default.mk
 
 override_dh_installdeb:
 	dh_installdeb
-	find ${CURDIR}/debian/ignoreconfig/DEBIAN -name conffiles -delete
+	sed -i '/first-file.txt/d' ${CURDIR}/debian/ignoreconfig/DEBIAN/conffiles
 # debmake generated override targets
 # This is example for Cmake (See http://bugs.debian.org/641051 )
 #override_dh_auto_configure:

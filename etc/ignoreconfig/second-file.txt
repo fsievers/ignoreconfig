@@ -1,0 +1,2 @@
+This is a second config file, that won't get removed from conffiles.
+
