@@ -1,0 +1,10 @@
+ignoreconfig for Debian
+-----------------------
+
+<this file describes information about the source package, see Debian policy
+manual section 4.14. You WILL either need to modify or delete this file>
+
+
+
+ -- Florian Sievers <florian.sievers@gmail.com>  Fri, 13 Mar 2015 18:18:40 +0100
+

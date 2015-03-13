@@ -1,0 +1,6 @@
+ignoreconfig for Debian
+-----------------------
+
+Please keep in mind, that this package should not override /etc/ignoreconfig/first-file.txt on package upgrades.
+
+ -- Florian Sievers <florian.sievers@gmail.com>  Fri, 13 Mar 2015 18:18:40 +0100

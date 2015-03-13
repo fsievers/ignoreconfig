@@ -1,0 +1,13 @@
+Source: ignoreconfig
+Section: devel
+Priority: optional
+Maintainer: Florian Sievers <florian.sievers@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: ignoreconfig
+Architecture: all
+Depends: ${misc:Depends}
+Description: Test package to test ignore config override
+ If everything works well, this package should not override it's config file
+ on package upgrade.

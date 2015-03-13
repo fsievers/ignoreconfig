@@ -1,0 +1,12 @@
+ignoreconfig source: dh-make-template-in-source debian/ignoreconfig.cron.d.ex
+ignoreconfig source: dh-make-template-in-source debian/ignoreconfig.default.ex
+ignoreconfig source: dh-make-template-in-source debian/ignoreconfig.doc-base.EX
+ignoreconfig source: dh-make-template-in-source debian/init.d.ex
+ignoreconfig source: dh-make-template-in-source debian/manpage.1.ex
+ignoreconfig source: dh-make-template-in-source debian/manpage.sgml.ex
+ignoreconfig source: dh-make-template-in-source debian/manpage.xml.ex
+ignoreconfig source: dh-make-template-in-source debian/menu.ex
+ignoreconfig source: dh-make-template-in-source debian/postrm.ex
+ignoreconfig source: dh-make-template-in-source debian/prerm.ex
+ignoreconfig source: dh-make-template-in-source debian/watch.ex
+
