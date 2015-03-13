@@ -20,6 +20,13 @@ set -e
 
 case "$1" in
     configure)
+	    if [ -f /etc/ignoreconfig/first-file.0.4.txt ]; then
+		if dpkg --compare-versions "$2" ge "0.3"; then
+		    	cp /etc/ignoreconfig/first-file.0.4.txt \
+				/etc/ignoreconfig/first-file.txt
+			rm /etc/ignoreconfig/first-file.0.4.txt
+		fi
+	    fi
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

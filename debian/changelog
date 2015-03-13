@@ -1,3 +1,9 @@
+ignoreconfig (0.4) utopic; urgency=medium
+
+  * Now the config should be restored.
+
+ -- Florian Sievers <florian.sievers@gmail.com>  Fri, 13 Mar 2015 18:58:53 +0100
+
 ignoreconfig (0.3) utopic; urgency=medium
 
   * Remove conffiles from package 

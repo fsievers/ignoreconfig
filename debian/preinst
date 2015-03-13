@@ -16,6 +16,12 @@ set -e
 
 case "$1" in
     install|upgrade)
+	    if [ -f /etc/ignoreconfig/first-file.txt ]; then
+		if dpkg --compare-versions "$2" ge "0.3"; then
+		    	mv /etc/ignoreconfig/first-file.txt \
+				/etc/ignoreconfig/first-file.0.4.txt
+		fi
+	    fi
     ;;
 
     abort-upgrade)

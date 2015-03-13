@@ -1,4 +1,4 @@
 This is the first file and we want to ignore upgrades on it.
 This is from the second version of this package.
 This is the third line and dpkg shouldn't worry about it.
-
+This is the fourth line in the config and should probably be ignored, if a previouse one exists.
