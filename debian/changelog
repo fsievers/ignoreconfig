@@ -1,3 +1,9 @@
+ignoreconfig (0.2) utopic; urgency=medium
+
+  * We should get a warning this time about the config in /etc/ignoreconfig
+
+ -- Florian Sievers <florian.sievers@gmail.com>  Fri, 13 Mar 2015 18:35:16 +0100
+
 ignoreconfig (0.1) utopic; urgency=low
 
   * Initial Release.

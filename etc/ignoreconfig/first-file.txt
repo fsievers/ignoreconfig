@@ -1,2 +1,3 @@
 This is the first file and we want to ignore upgrades on it.
+This is from the second version of this package.
 
